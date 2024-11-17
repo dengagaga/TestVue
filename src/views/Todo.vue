@@ -4,7 +4,7 @@
     <div class="container">
       <nav class="nav">
         <RouterLink to="/about">
-          <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="218px" height="50px" />
+          <img alt="Vue logo" class="logo logo1" src="@/assets/logo.svg" width="218px" height="50px" />
           <img alt="Vue logo" class="logo logo2" src="@/assets/logo2.png" width="218px" height="50px" />
         </RouterLink> 
         <div class="person" >

@@ -93,7 +93,7 @@ body {
   padding-top: 20px!important;
  }
 }
-@media (max-width: 360px) {
+@media (max-width: 420px) {
   .title-4 {
 
      font-size: 20px;
@@ -150,7 +150,7 @@ body {
     padding: 90px 16px!important;
   }
  
-  .logo {
+  .logo1 {
     display: none!important;
 
   }
