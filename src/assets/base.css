@@ -1,0 +1,180 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+ --dark:#0A1F38;
+ --dark-middle:#1B2F46;
+ --dark-light:#2F4056;
+ --gray:#9DA5AF;
+ --green-dark:#819400;
+ --green-middle:#97AB0D;
+ --green:#A5BB0C;
+ --green-light:#B1C909;
+ --white:#FFFFFF;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--dark);
+}
+.title-1 {
+  font-size: 104px;
+  font-weight: 900;
+  color: var(--white);
+  line-height: 104px;
+}
+.title-2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--white);
+
+}
+.title-3 {
+  font-size: 32px;
+  color: var(--white);
+
+  font-weight: 400;
+}
+.title-4 {
+  font-size: 24px;
+  color: var(--white);
+
+  font-weight: 600;
+}
+.text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 160px;
+  
+}
+
+
+@media(max-width: 1366px) {
+  .container {
+    padding: 0 80px;
+    margin: 0 auto;
+    
+  }
+  .main {
+    height: 82vh;
+   
+  }
+  main {
+    padding-bottom: 40px;
+  }
+
+
+}
+@media (max-width: 768px) {
+  .main {
+    height: 82vh!important;
+    background-size:380px!important;
+    background-position:center bottom -5px!important;
+  }
+  .main_left-container {
+    align-items: start!important;
+    text-align: center;
+    justify-content: center!important;
+  
+  }
+  .container {
+    padding: 0 40px;
+    margin: 0 auto;
+    
+  }
+  .main_left {
+    max-width: 768px!important;
+  }
+ .header {
+  padding-bottom: 20px!important;
+  padding-top: 20px!important;
+ }
+}
+@media (max-width: 360px) {
+  .title-4 {
+
+     font-size: 20px;
+  }
+  .title-1 {
+    line-height: 64px;
+     font-size: 60px;
+  }
+  .title-2 {
+    
+     font-size: 32px;
+  }
+  .modal h2 {
+    line-height: 36px!important;
+    margin-bottom: 28px!important;
+  }
+  .modal_bottom  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px!important;
+  }
+  .btn-2 {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 12px;
+    text-align: center!important;
+  }
+  .text_grey {
+    font-size: 14px!important;
+    order: 2;
+  }
+  .title-3 {
+
+     font-size: 24px;
+  }
+  .text {
+
+     font-size: 16px;
+  }
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+    
+  }
+  .logo {
+    max-width: 154px;
+  }
+  .main_left-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .modal {
+    padding: 90px 16px!important;
+  }
+ 
+  .logo {
+    display: none!important;
+
+  }
+  .logo2 {
+    display: block!important;
+    width: 36px;
+  }
+  .person {
+    font-size: 14px;
+}
+.person_icon {
+  width: 36px!important;
+  height: 36px!important;
+  padding: 8px 10px!important;
+}
+.todo_all {
+  margin-top: 20px;
+}
+.modal_add {
+  padding-top: 24px!important;
+  padding-bottom: 24px!important;
+}
+.modal_bottom-add button {
+  width: 100%;
+  justify-content: center;
+}
+}
